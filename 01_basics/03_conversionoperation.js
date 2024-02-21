@@ -30,5 +30,38 @@ let booleanIsLoggedIn= Boolean(isLoggedIn)
 console.log(isLoggedIn)
 console.log(booleanIsLoggedIn)
 
+let someNumber=33
+let yoyo=String(someNumber)
+console.log(typeof yoyo)
+
+
+///////////OPERATIONS//////////
+
+let value=17
+let negValue= -value
+console.log(negValue)
+
+console.log(2**3)//2 to the power 3
+
+//string concatenation
+let str1="khushi ka"
+let str2=" hritik"
+console.log(str1+str2)
+
+
+
+//imp//
+console.log("1"+2)//gives 12
+console.log(1+"2")//gives 12
+console.log("1"+2+3)//gives 123
+console.log(1+2+"3")//gives 33
+
+
+
+//ye nhi krna chaiye pr kroge toh asa ho jata h
+console.log(+true)
+console.log(+" ")
+
+//learn about prefix and postfix
 
 
