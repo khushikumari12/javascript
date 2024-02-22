@@ -63,5 +63,3 @@ console.log(+true)
 console.log(+" ")
 
 //learn about prefix and postfix
-
-
