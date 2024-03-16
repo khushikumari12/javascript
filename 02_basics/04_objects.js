@@ -25,7 +25,7 @@ console.log(regularuser.fullname.userfullname);//gives the whole fullname as out
 const obj1={1:"a",3:"njb"}
 const obj2={2:"b",4:"hhg"}
 
-const obj3={obj1,obj2}//this will give object under onject
+const obj3={obj1,obj2}//this will give object under object
 
 const obj4=Object.assign({},obj1,obj2)//empty paranthesis lgana aacha syntax hota h bec gaurantedd result shi aayega.. bec it is possible when there were more objects//obj1 is target and obj2 is source
 
@@ -58,10 +58,37 @@ const users=[
 
 console.log(users[1].email)//gives hbd 
 
-console.log(Objects.keys(tinderr))//gives all the keys of tinderr
-console.log(Objects.values(tinderr))
+console.log(Object.keys(tinderr))//gives all the keys of tinderr
+console.log(Object.values(tinderr))
 //gives all values 
-console.log(Objects.entrises(tinderr))//converts all the key and values into an array
+console.log(Object.entries(tinderr))//converts all the key and values into an array
 
-console.log(tinderr.has(id))
+console.log(tinderr.hasOwnProperty('id'))
 
+
+//object destructure 
+
+const course={
+    coursename:"english",
+    price:888,
+    courseInstructor:"khushi"
+}
+
+const{courseInstructor:Instructor}=course  //{} can extract any value from object //also we can change the name of key
+console.log(Instructor);
+
+
+//API(random user me : famous api)
+// {
+    
+// }
+
+
+//another format
+// [
+//     {}
+//     {}
+// ]
+
+
+//tools to understand api: Json formatter
