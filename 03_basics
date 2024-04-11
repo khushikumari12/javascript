@@ -56,6 +56,30 @@ console.log(loginUserMessage()) //returns undefined just logged in
 
 
 
+// REST OPERATOR
+//used when we have soo many arguments passed..
+//it simply wrap the arguments and gives an array
+
+function calculateCartPrice(...num1)
+    return num1
+}
+
+console.log(calculateCartPrice(200,400,500) //gives [200,400,500...and soo on]
+
+
+//IMP FOR INTERVIEW
+//WHAT IF WE HAVE (val1, val2,...num1)
+
+function calculateCartPrice(val1,val2,...num1)
+    return num1
+}
+
+console.log(calculateCartPrice(200,400,500,2000,656) //now val1=200 and val2=400
+//only 2000 and 656 comes into array
+
+
+
+
 
 
 
