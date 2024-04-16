@@ -1,7 +1,7 @@
 function sayMyName(){
-     console.log("k");
-     console.log("h");
-     console.log("u");
+    console.log("k");
+    console.log("h");
+    console.log("u");
 }
 
 sayMyName()
@@ -10,7 +10,7 @@ sayMyName()
 //function to add two numbers
 
 function addTwoNumbers(number1,number2){  //these are parameters
-      console.log(number1+number2);
+     console.log(number1+number2);
 }
 addTwoNumbers(3,"4") // gives 34//there is no checking of datatypes //these 3,4 are arguments
 addTwoNumbers(3,null) //gives 3
@@ -26,9 +26,9 @@ console.log("result:"+ result);//undefined
 
 
 function addTwoNumbers(number1,number2){ 
-     let result=number1+number2
-     return result;
-     console.log("khushi")//it will not execute as after return no instruc will be execute in a function
+    let result=number1+number2
+    return result;
+    console.log("khushi")//it will not execute as after return no instruc will be execute in a function
 }
 
 console.log("result:"+ result);//now this will execute as we have return the result inside the function
@@ -38,11 +38,11 @@ console.log("result:"+ result);//now this will execute as we have return the res
 
 //another function
 function loginUserMessage(username){    //if we pass username="sam" in argument then the value will be never undefined , it bydefault takes sam
-    if(username===undefined){          //pr we can write if(!username)
-       console.log("Please enter a username");
-       return
-    }
-    return `${username} just logged in`
+   if(username===undefined){          //pr we can write if(!username)
+      console.log("Please enter a username");
+      return
+   }
+   return `${username} just logged in`
 }
 
 loginUserMessage("Khushi")//return nothing
@@ -61,7 +61,7 @@ console.log(loginUserMessage()) //returns undefined just logged in
 //it simply wrap the arguments and gives an array
 
 function calculateCartPrice(...num1){ 
-    return num1
+   return num1
 }
 
 console.log(calculateCartPrice(200,400,500)) //gives [200,400,500...and soo on]
@@ -71,7 +71,7 @@ console.log(calculateCartPrice(200,400,500)) //gives [200,400,500...and soo on]
 //WHAT IF WE HAVE (val1, val2,...num1)
 
 function calculateCarPrice(val1,val2,...num1){ 
-    return num1
+   return num1
 }
 
 console.log(calculateCarPrice(200,400,500,2000,656) )//now val1=200 and val2=400
