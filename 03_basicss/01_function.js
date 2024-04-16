@@ -77,21 +77,3 @@ function calculateCarPrice(val1,val2,...num1){
 console.log(calculateCarPrice(200,400,500,2000,656) )//now val1=200 and val2=400
 //only 2000 and 656 comes into array
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
